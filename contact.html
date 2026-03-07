@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | House of Sixteen</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="top-header">
+    <div class="nav-container">
+      <h1 class="logo">House of Sixteen</h1>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="board.html">Board</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+    <marquee>✨ House of Sixteen Runway Gala — June 20, 2026 · Private showcases · VIP styling appointments now open ✨</marquee>
+  </header>
+
+  <main>
+    <section class="page-hero contact-hero">
+      <div class="hero-content">
+        <p class="section-label">Concierge</p>
+        <h2>Contact the house</h2>
+        <p>
+          Whether you are booking a private appointment, making a style inquiry, or reaching out for a bespoke experience,
+          our team is ready to welcome you.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact-intro">
+      <div class="section-shell centered-copy">
+        <p class="section-label">Your Invitation to Elegance</p>
+        <h2 class="section-title">A more personal fashion conversation starts here</h2>
+        <p class="section-intro">
+          Reserve a showroom visit, request couture guidance, inquire about an event, or connect with the house for tailored support.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact-layout">
+      <div class="contact-left">
+        <div class="contact-panel glass-panel">
+          <p class="section-label">Private Appointment</p>
+          <h2>Book a showroom experience</h2>
+          <p class="panel-text">
+            Reserve time with our style consultants for private fittings, couture consultations, exclusive collection viewings,
+            VIP styling sessions, and one-on-one luxury service.
+          </p>
+
+          <form id="appointmentForm" class="luxury-form" novalidate>
+            <div class="form-grid two-columns">
+              <div>
+                <label for="appointmentName">Full Name</label>
+                <input type="text" id="appointmentName" name="appointmentName" placeholder="Enter your full name">
+              </div>
+              <div>
+                <label for="appointmentEmail">Email Address</label>
+                <input type="email" id="appointmentEmail" name="appointmentEmail" placeholder="Enter your email" autocomplete="email">
+              </div>
+            </div>
+
+            <div class="form-grid two-columns">
+              <div>
+                <label for="appointmentPhone">Phone Number</label>
+                <input type="tel" id="appointmentPhone" name="appointmentPhone" placeholder="Enter your phone number" autocomplete="tel">
+              </div>
+              <div>
+                <label for="appointmentDate">Preferred Date</label>
+                <input type="date" id="appointmentDate" name="appointmentDate">
+              </div>
+            </div>
+
+            <div class="form-grid two-columns">
+              <div>
+                <label for="appointmentTime">Preferred Time</label>
+                <select id="appointmentTime" name="appointmentTime">
+                  <option value="">Select a time</option>
+                  <option>10:00 AM</option>
+                  <option>11:30 AM</option>
+                  <option>1:00 PM</option>
+                  <option>2:30 PM</option>
+                  <option>4:00 PM</option>
+                  <option>5:30 PM</option>
+                </select>
+              </div>
+              <div>
+                <label for="appointmentService">Service Type</label>
+                <select id="appointmentService" name="appointmentService">
+                  <option value="">Select a service</option>
+                  <option>Private Fitting</option>
+                  <option>Couture Consultation</option>
+                  <option>Private Styling Consultation</option>
+                  <option>Couture Fitting Session</option>
+                  <option>Wardrobe Direction</option>
+                  <option>Event Styling Appointment</option>
+                  <option>Exclusive Collection Access</option>
+                  <option>Private Collection Preview</option>
+                  <option>VIP Fitting Experience</option>
+                  <option>Special Occasion Styling</option>
+                  <option>Bespoke Experience Request</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <label for="appointmentMethod">Preferred Contact Method</label>
+              <select id="appointmentMethod" name="appointmentMethod">
+                <option value="">Select a method</option>
+                <option>Email</option>
+                <option>Phone Call</option>
+                <option>WhatsApp</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="appointmentMessage">Special Notes</label>
+              <textarea id="appointmentMessage" name="appointmentMessage" placeholder="Tell us about the occasion, your style direction, or anything the team should prepare in advance."></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit">Request Appointment</button>
+              <button id="clearAppointmentForm" class="secondary-button" type="button">Clear Form</button>
+            </div>
+            <p id="appointmentResponse" class="form-response" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="contact-panel inquiry-panel">
+          <p class="section-label">General Inquiry</p>
+          <h2>Send an inquiry</h2>
+          <p class="panel-text">
+            Reach out for private invitations, premium seating, collaborative proposals, institutional correspondence,
+            leadership inquiries, or bespoke fashion requests.
+          </p>
+
+          <div id="inquiries"></div>
+
+          <form id="inquiryForm" class="luxury-form" novalidate>
+            <div class="form-grid two-columns">
+              <div>
+                <label for="inquiryName">Full Name</label>
+                <input type="text" id="inquiryName" name="inquiryName" placeholder="Enter your full name">
+              </div>
+              <div>
+                <label for="inquiryEmail">Email Address</label>
+                <input type="email" id="inquiryEmail" name="inquiryEmail" placeholder="Enter your email" autocomplete="email">
+              </div>
+            </div>
+
+            <div>
+              <label for="inquiryType">Inquiry Type</label>
+              <select id="inquiryType" name="inquiryType">
+                <option value="">Select inquiry type</option>
+                <option>Product Information</option>
+                <option>Order Assistance</option>
+                <option>Exclusive Collection Access</option>
+                <option>Private Preview Request</option>
+                <option>Event Inquiry</option>
+                <option>Private Invitation Request</option>
+                <option>Premium Seating Request</option>
+                <option>Special Event Arrangement</option>
+                <option>Leadership Inquiry</option>
+                <option>Institutional Correspondence</option>
+                <option>Partnership / Collaboration Proposal</option>
+                <option>Media / Press</option>
+                <option>General Support</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="inquiryDestination">Direct Your Message To</label>
+              <select id="inquiryDestination" name="inquiryDestination">
+                <option value="">Select destination</option>
+                <option>Concierge Team</option>
+                <option>Appointments Desk</option>
+                <option>Collections Team</option>
+                <option>Events Team</option>
+                <option>Board Office</option>
+                <option>Partnerships & Collaborations</option>
+                <option>Press & Media Desk</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="inquiryMessage">Your Message</label>
+              <textarea id="inquiryMessage" name="inquiryMessage" placeholder="Write your message here..."></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit">Send Inquiry</button>
+            </div>
+            <p id="inquiryResponse" class="form-response" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+
+      <aside class="contact-right">
+        <div class="info-card dark-card">
+          <p class="section-label">Concierge Desk</p>
+          <h3>Contact Information</h3>
+          <ul class="info-list">
+            <li><strong>Email:</strong> concierge@houseofsixteen.com</li>
+            <li><strong>Phone:</strong> +234 90 1234 5678</li>
+            <li><strong>Showroom:</strong> Sixteen House, Mayfair, Lagos</li>
+          </ul>
+        </div>
+
+        <div class="info-card">
+          <p class="section-label">Visiting Hours</p>
+          <h3>Showroom Availability</h3>
+          <ul class="info-list">
+            <li><strong>Monday - Friday:</strong> 10:00 AM - 6:00 PM</li>
+            <li><strong>Saturday:</strong> 11:00 AM - 5:00 PM</li>
+            <li><strong>Sunday:</strong> Private appointments only</li>
+          </ul>
+        </div>
+
+        <div class="info-card">
+          <p class="section-label">Client Experience</p>
+          <h3>What Awaits You</h3>
+          <p>
+            Every visit is designed around intimacy, detail, and personal attention.
+            Expect styling guidance, thoughtful garment presentation, and a refined setting built around your needs.
+          </p>
+        </div>
+
+        <div class="info-card highlight-card">
+          <p class="section-label">Need Something Special?</p>
+          <h3>Request a bespoke experience</h3>
+          <p>
+            For couture requests, private previews, VIP fittings, or collaborative proposals,
+            let us know through the inquiry form and the team will prepare a tailored response.
+          </p>
+          <button id="scrollToInquiryButton" type="button">Go to Inquiry Form</button>
+        </div>
+      </aside>
+    </section>
+
+    <section class="contact-quote">
+      <div class="quote-box">
+        <h2>Luxury begins with attention</h2>
+        <p>
+          “At House of Sixteen, every inquiry is more than a message — it is the beginning of a carefully curated experience.”
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 House of Sixteen</p>
+  </footer>
+</body>
+</html>

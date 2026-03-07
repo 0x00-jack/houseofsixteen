@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>House of Sixteen</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="top-header">
+    <div class="nav-container">
+      <h1 class="logo">House of Sixteen</h1>
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="products.html">Products</a>
+        <a href="board.html">Board</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+    <marquee>✨ House of Sixteen Runway Gala — June 20, 2026 · Private showcases · VIP styling appointments now open ✨</marquee>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <p class="section-label">A Modern Fashion House</p>
+        <h2>Elegance Redefined.</h2>
+        <p>House of Sixteen creates fashion for moments that deserve memory — tailored pieces, refined silhouettes, and a quiet confidence that lingers after the room has changed.</p>
+        <button id="styleTipButton" type="button">Reveal a Style Tip</button>
+        <p id="tip" class="tip-box"></p>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-shell centered-copy">
+        <p class="section-label">Featured Collection</p>
+        <h2 class="section-title">A first look at the signature edit</h2>
+        <p class="section-intro">Three defining pieces from the current collection — dramatic, versatile, and unmistakably House of Sixteen.</p>
+      </div>
+
+      <div class="section-shell grid featured-section-grid">
+        <article class="card">
+          <img src="images/products/evening-gown.jpg" alt="Evening Silk Gown">
+          <div class="card-body">
+            <h3>Evening Silk Gown</h3>
+            <p>A sculpted evening piece designed for slow entrances and unforgettable exits.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/products/gold-suit.jpg" alt="Imperial Gold Suit">
+          <div class="card-body">
+            <h3>Imperial Gold Suit</h3>
+            <p>Sharp tailoring with a regal finish for occasions that call for presence.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/products/noir-jacket.jpg" alt="Urban Noir Jacket">
+          <div class="card-body">
+            <h3>Urban Noir Jacket</h3>
+            <p>A modern city staple where luxury restraint meets bold everyday dressing.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="section-shell section-cta">
+        <a class="button" href="products.html">View the Full Collection</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-shell centered-copy">
+        <p class="section-label">Our Story</p>
+        <h2 class="section-title">Tailoring that speaks softly and lasts loudly</h2>
+        <p class="story-copy">House of Sixteen blends modern creativity with timeless construction. Every collection is built around individuality, confidence, and the kind of design that feels considered long after first glance.</p>
+      </div>
+    </section>
+
+    <section class="highlight">
+      <div class="section-shell home-featured-event">
+        <p class="section-label">Featured Event</p>
+        <h2 class="section-title">House of Sixteen Grand Runway Gala</h2>
+        <p class="section-intro">Our signature night of elegance returns with a live couture reveal, editorial installations, private styling lounges, and a closing champagne reception.</p>
+        <p id="countdown" class="countdown-inline"></p>
+        <div class="section-cta">
+          <a class="button button-muted" href="events.html">View Gala Details</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-shell centered-copy">
+        <p class="section-label">From the Creative Director</p>
+        <h2 class="section-title">Fashion should never arrive empty</h2>
+        <p class="quote-copy">“Fashion is not simply what we wear. It is a language of mood, memory, identity, and intent.”</p>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="section-shell centered-copy">
+        <p class="section-label">Newsletter</p>
+        <h2 class="section-title">Stay in style</h2>
+        <p class="section-intro">Subscribe for collection news, invitation-only moments, and private house updates.</p>
+
+        <form id="subscribeForm" class="subscribe-form" novalidate>
+          <div class="subscribe-box">
+            <input type="email" id="subscribeEmail" name="subscribeEmail" placeholder="Enter your email address" autocomplete="email">
+            <button type="submit">Subscribe</button>
+          </div>
+          <p id="subscribeMessage" class="subscribe-message"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="bespoke-cta">
+      <div class="bespoke-cta-box">
+        <div class="bespoke-cta-text">
+          <p class="section-label">Need Something Exceptional?</p>
+          <h2>Begin a bespoke House of Sixteen experience</h2>
+          <p>From private fittings to couture consultations, our team is ready to shape an experience tailored to your style, occasion, and vision.</p>
+        </div>
+        <div class="bespoke-cta-actions">
+          <a class="button" href="contact.html">Contact Our Concierge</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 House of Sixteen</p>
+  </footer>
+</body>
+</html>
