@@ -132,7 +132,7 @@ const boardMembers = [
   {
     name: "Isaac Essang",
     role: "Industry Relations Head",
-    image: "https://picsum.photos/400/450?person8",
+    image: "images/board/isaac.jpg",
     bio: "Isaac builds high-value relationships across the fashion ecosystem, opening doors to meaningful partnerships and influential collaborations."
   },
   {
