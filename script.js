@@ -91,85 +91,85 @@ const boardMembers = [
     name: "Shadrach Abang",
     role: "Chairperson",
     image: "images/board/shadrach.jpg",
-    bio: "Shadrach Abang provides strategic leadership to the Board, ensuring that House of Sixteen remains anchored in excellence, vision, and long-term creative growth."
+    bio: "Shadrach provides strategic leadership to the Board, ensuring that House of Sixteen remains anchored in excellence, vision, and long-term creative growth."
   },
   {
     name: "Usher Ozekhome",
     role: "Vice Chair",
     image: "images/board/usher.jpg",
-    bio: "Usher Ozekhome supports the Chairperson in guiding institutional direction, strengthening governance, and shaping executive-level decisions across the house."
+    bio: "Usher supports the Chairperson in guiding institutional direction, strengthening governance, and shaping executive-level decisions across the house."
   },
   {
     name: "Kelechi Onwubiko",
     role: "Creative Director",
     image: "images/board/kelechi.jpg",
-    bio: "Kelechi Onwubiko champions artistic innovation and helps ensure that every major decision aligns with the house's creative identity and luxury aesthetic."
+    bio: "Kelechi champions artistic innovation and helps ensure that every major decision aligns with the house's creative identity and luxury aesthetic."
   },
   {
     name: "Gabrielle Umukoro",
     role: "Finance Director",
     image: "images/board/gabrielle.jpg",
-    bio: "Gabrielle Umukoro oversees financial stewardship and investment strategy, supporting the long-term health, resilience, and ambition of House of Sixteen."
+    bio: "Gabrielle oversees financial stewardship and investment strategy, supporting the long-term health, resilience, and ambition of House of Sixteen."
   },
   {
-    name: "Andrew Samaila",
+    name: "Mashisopo Andrew Samaila",
     role: "Operations Director",
     image: "https://picsum.photos/400/450?person5",
-    bio: "Andrew Samaila leads operational planning with a focus on efficiency, continuity, and the seamless execution of the house's wider vision."
+    bio: "Mashisopo leads operational planning with a focus on efficiency, continuity, and the seamless execution of the house's wider vision."
   },
   {
-    name: "Jack Ibiyekaribo",
+    name: "Jack Tamunoibi",
     role: "Legal Adviser",
     image: "https://picsum.photos/400/450?person6",
-    bio: "Jack Ibiyekaribo guides governance, partnerships, and compliance matters, helping protect the integrity and institutional strength of the brand."
+    bio: "Jack guides governance, partnerships, and compliance matters, helping protect the integrity and institutional strength of the brand."
   },
   {
     name: "Solomon Nelson",
     role: "Brand Strategy Lead",
     image: "images/board/solomon-1.jpg",
-    bio: "Solomon Nelson shapes long-term brand direction, ensuring that House of Sixteen remains relevant, distinctive, and culturally resonant."
+    bio: "Solomon shapes long-term brand direction, ensuring that House of Sixteen remains relevant, distinctive, and culturally resonant."
   },
   {
-    name: "Isaac Esang",
+    name: "Isaac Essang",
     role: "Industry Relations Head",
     image: "https://picsum.photos/400/450?person8",
-    bio: "Isaac Esang builds high-value relationships across the fashion ecosystem, opening doors to meaningful partnerships and influential collaborations."
+    bio: "Isaac builds high-value relationships across the fashion ecosystem, opening doors to meaningful partnerships and influential collaborations."
   },
   {
-    name: "Juliet Agbujie",
+    name: "Ijeoma Juliet Agbujie",
     role: "Public Affairs Director",
     image: "images/board/juliet-1.jpg",
-    bio: "Juliet Agbujie guides public communication and institutional representation, shaping how the house is understood beyond the runway."
+    bio: "Ijeoma guides public communication and institutional representation, shaping how the house is understood beyond the runway."
   },
   {
-    name: "Michelle Mbagwu",
+    name: "Michelle Adaeze Mbagwu",
     role: "Innovation Adviser",
     image: "images/board/michelle.jpg",
-    bio: "Michelle Mbagwu brings future-facing thinking to the Board, advising on new experiences, evolving audiences, and the modern language of luxury."
+    bio: "Michelle brings future-facing thinking to the Board, advising on new experiences, evolving audiences, and the modern language of luxury."
   },
   {
     name: "Joshua Irueforom",
     role: "Cultural Partnerships Lead",
     image: "https://picsum.photos/400/450?person11",
-    bio: "Joshua Irueforom develops meaningful cultural collaborations that deepen the house's artistic relevance and broaden its influence."
+    bio: "Joshua develops meaningful cultural collaborations that deepen the house's artistic relevance and broaden its influence."
   },
   {
-    name: "Anon Anon",
+    name: "Joshua Ajeboriogbon",
     role: "Business Development Director",
     image: "https://picsum.photos/400/450?person12",
-    bio: "Anon Anon identifies strategic growth paths and commercial opportunities that support the house's long-term ambitions."
+    bio: "Joshua identifies strategic growth paths and commercial opportunities that support the house's long-term ambitions."
   },
   {
-    name: "Anon Anon",
+    name: "Abiodun Timothy Olanihun",
     role: "Fashion Advisory Lead",
     image: "https://picsum.photos/400/450?person13",
-    bio: "Anon Anon provides specialist fashion counsel, ensuring that board-level direction remains aligned with market expectation and creative excellence."
+    bio: "Abiodun provides specialist fashion counsel, ensuring that board-level direction remains aligned with market expectation and creative excellence."
   },
   {
-    name: "Anon Anon",
+    name: "Faith Okpum",
     role: "Trustee Secretary",
     image: "https://picsum.photos/400/450?person14",
-    bio: "Anon Anon supports governance processes, maintains institutional continuity, and helps preserve accountability across the Board's work."
+    bio: "Faith supports governance processes, maintains institutional continuity, and helps preserve accountability across the Board's work."
   }
 ];
 
