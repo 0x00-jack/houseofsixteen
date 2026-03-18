@@ -114,7 +114,7 @@ const boardMembers = [
   {
     name: "Mashisopo Andrew Samaila",
     role: "Operations Director",
-    image: "https://picsum.photos/400/450?person5",
+    image: "images/board/mashisopo.jpg",
     bio: "Mashisopo leads operational planning with a focus on efficiency, continuity, and the seamless execution of the house's wider vision."
   },
   {
@@ -150,7 +150,7 @@ const boardMembers = [
   {
     name: "Joshua Irueforom",
     role: "Cultural Partnerships Lead",
-    image: "https://picsum.photos/400/450?person11",
+    image: "images/board/joshua1.jpg",
     bio: "Joshua develops meaningful cultural collaborations that deepen the house's artistic relevance and broaden its influence."
   },
   {
@@ -168,7 +168,7 @@ const boardMembers = [
   {
     name: "Faith Okpum",
     role: "Trustee Secretary",
-    image: "https://picsum.photos/400/450?person14",
+    image: "images/board/faith.jpg",
     bio: "Faith supports governance processes, maintains institutional continuity, and helps preserve accountability across the Board's work."
   }
 ];
